@@ -61,9 +61,14 @@ footer {
 
 .people {
     border: 2px solid red;
+    border-radius: 20px;
     width: 30%;
     float: left;
     margin: 20px 10px 50px 35px;
+}
+
+.people:hover {
+    background: red;
 }
 
 .people img {
